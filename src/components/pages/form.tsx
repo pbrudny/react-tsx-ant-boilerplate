@@ -20,7 +20,7 @@ const FormApp = () => {
     axios.post(`http://localhost:5000/users`, 
       values
     )
-    .then(res => {
+    .then(() => {
       setLoading(false);
       message.success('User Added Successfully!');
       history.push('/list');
@@ -107,7 +107,7 @@ const FormApp = () => {
             <Button type="primary" loading={loading} htmlType="submit">
               Save
             </Button>{' '}
-            <Button type="danger" htmlType="button" onClick={() => history.push('/list')}>
+            <Button type="primary" danger htmlType="button" onClick={() => history.push('/list')}>
               Back
             </Button>
               </div>
