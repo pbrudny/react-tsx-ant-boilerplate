@@ -11,7 +11,7 @@ const List = () => {
   const [allData, setAllData] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/users`).then(res => {
+    axios.get(`http://localhost:5000/users`).then((res: any) => {
       setAllData(res.data);
     });
   });
