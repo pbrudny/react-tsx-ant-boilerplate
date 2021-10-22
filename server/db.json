@@ -1,16 +1,3 @@
 {
-  "users": [
-    {
-      "username": "Sudeep",
-      "email": "sudeeptimalsina18@gmail.com",
-      "gender": "male",
-      "hobbies": [
-        "Reading",
-        "Writing"
-      ],
-      "review": 24,
-      "notificaiton": true,
-      "id": 1
-    }
-  ]
+  "users": []
 }
