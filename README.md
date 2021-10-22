@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project is a fork of [ReactAnt](https://github.com/SudeepTimalsina/ReactAnt) from [SudeepTimalsina](https://github.com/SudeepTimalsina) with latest packages and Cypress/Cucumber added.
 
 ## Available Scripts
 
