@@ -4,7 +4,7 @@ import {Empty} from 'antd';
 const Files = () => {
   return (
     <div>
-        <Empty />
+      <Empty/>
     </div>
   );
 }

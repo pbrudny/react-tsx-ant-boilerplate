@@ -35,19 +35,18 @@ const List = () => {
     },
   ];
 
-  const data = [{
-  }];
+  const data = [{}];
 
   allData.map((user: any) => {
     data.push({
-     key: user.id,
-     username: user.username,
-     email: user.email,
-     gender: user.gender,
-     review: user.review + '%',
-   })
-   return data;
- });
+      key: user.id,
+      username: user.username,
+      email: user.email,
+      gender: user.gender,
+      review: user.review + '%',
+    })
+    return data;
+  });
 
   const handleClick = () => {
     history.push('/form')
@@ -55,21 +54,21 @@ const List = () => {
 
   return (
     <div>
-        <Row gutter={[40, 0]}>
-          <Col span={18}>
-            <Title level={2}>
+      <Row gutter={[40, 0]}>
+        <Col span={18}>
+          <Title level={2}>
             User List
-            </Title>
-            </Col>
-          <Col span={6}>
-          <Button onClick={handleClick} block>Add User</Button>
-          </Col>
-        </Row>
-        <Row gutter={[40, 0]}>
-        <Col span={24}>
-        <Table columns={columns} dataSource={data} />
+          </Title>
         </Col>
-        </Row>
+        <Col span={6}>
+          <Button onClick={handleClick} block>Add User</Button>
+        </Col>
+      </Row>
+      <Row gutter={[40, 0]}>
+        <Col span={24}>
+          <Table columns={columns} dataSource={data}/>
+        </Col>
+      </Row>
     </div>
   );
 }

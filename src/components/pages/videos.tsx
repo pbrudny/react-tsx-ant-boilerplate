@@ -4,7 +4,7 @@ import {Empty} from 'antd';
 const Videos = () => {
   return (
     <div>
-        <Empty />
+      <Empty/>
     </div>
   );
 }
